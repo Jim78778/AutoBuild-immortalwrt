@@ -78,7 +78,7 @@ jobs:
     - name: Load custom config
       run: |
         cd openwrt
-        cp ../configfiles/config_data.txt .config
+        cp ../argon .config
         make defconfig
 
     - name: Download packages
